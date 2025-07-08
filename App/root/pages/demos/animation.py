@@ -42,7 +42,7 @@ for frame_num, a in enumerate(np.linspace(0.0, 4 * np.pi, 100)):
     # Update the image placeholder by calling the image() function on it.
     image.image(1.0 - (n_matrix / n_matrix.max()), use_container_width=True)
 
-    time.sleep(0.05) # Simulate a delay for the animation effect
+    time.sleep(0.1) # Simulate a delay for the animation effect
 
 # We clear elements by calling empty on them.
 progress_bar.empty()
